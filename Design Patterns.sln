@@ -9,14 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{22D68B0D-27F7-4ADA-AF91-22B64341B032}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{8190398E-91A0-44F9-8C19-48B57030F026}"
-EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8190398E-91A0-44F9-8C19-48B57030F026} = {22D68B0D-27F7-4ADA-AF91-22B64341B032}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E3221A-6CC9-4BBE-92BD-D91A8B136A32}
