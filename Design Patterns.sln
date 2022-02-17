@@ -9,9 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{22D68B0D-27F7-4ADA-AF91-22B64341B032}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{5D507F33-69C3-457C-AF1E-44CF57E4DE55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{0A9A822F-F892-4FCA-96EE-223606381333}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A9A822F-F892-4FCA-96EE-223606381333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A822F-F892-4FCA-96EE-223606381333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A822F-F892-4FCA-96EE-223606381333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9A822F-F892-4FCA-96EE-223606381333}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D507F33-69C3-457C-AF1E-44CF57E4DE55} = {5E514770-4D2C-4A07-B2C1-7FA834B06623}
+		{0A9A822F-F892-4FCA-96EE-223606381333} = {5D507F33-69C3-457C-AF1E-44CF57E4DE55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E3221A-6CC9-4BBE-92BD-D91A8B136A32}
