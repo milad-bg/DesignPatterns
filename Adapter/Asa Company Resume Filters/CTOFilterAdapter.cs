@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Adapter.Asa_Company_Filters
+﻿namespace Adapter.Asa_Company_Filters
 {
     class CTOFilterAdapter : IMofidCompanyFilter
     {
@@ -13,7 +7,7 @@ namespace Adapter.Asa_Company_Filters
         {
             this.CtoFilter = ctoFilter;
         }
-        
+
         public void Apply(Resume resume)
         {
             CtoFilter.Init();
