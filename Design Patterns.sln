@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{0B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "..\..\source\repos\Observer\Observer\Observer.csproj", "{D384FDA7-842E-4496-A833-4382A96B2618}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{327C0DB5-D49C-418A-84AA-18A38AF79D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "..\..\source\repos\Decorator\Decorator\Decorator.csproj", "{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,10 @@ Global
 		{D384FDA7-842E-4496-A833-4382A96B2618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D384FDA7-842E-4496-A833-4382A96B2618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D384FDA7-842E-4496-A833-4382A96B2618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +58,8 @@ Global
 		{E50244A9-EE8B-4A0A-854C-81F9F32C2CF1} = {A1F3E058-B831-4726-874F-0968679347A1}
 		{0B55B689-4530-42B5-B558-9D6E90E9F3CE} = {22D68B0D-27F7-4ADA-AF91-22B64341B032}
 		{D384FDA7-842E-4496-A833-4382A96B2618} = {0B55B689-4530-42B5-B558-9D6E90E9F3CE}
+		{327C0DB5-D49C-418A-84AA-18A38AF79D84} = {5E514770-4D2C-4A07-B2C1-7FA834B06623}
+		{6CD1BC45-FCF5-4E12-9ECB-A233AD7DC3E6} = {327C0DB5-D49C-418A-84AA-18A38AF79D84}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {39E3221A-6CC9-4BBE-92BD-D91A8B136A32}
